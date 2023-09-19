@@ -1,0 +1,64 @@
+{
+    "blogs": [
+      {
+        "title": "DOCKER COMPOSE 4",
+        "body": " cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles. DFDEWQWEWE",
+        "author": "sandra",
+        "id": 6
+      },
+      {
+        "title": "LINUXERS",
+        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
+        "author": "",
+        "id": 8
+      },
+      {
+        "title": "pepe",
+        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
+        "author": "mario",
+        "id": 9
+      },
+      {
+        "title": "UBUNTU",
+        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
+        "author": "",
+        "id": 10
+      },
+      {
+        "title": "DOCKER",
+        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
+        "author": "",
+        "id": 11
+      },
+      {
+        "title": "docker",
+        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
+        "author": "",
+        "id": 12
+      },
+      {
+        "title": "JAVASCRIPT",
+        "body": "Compose file format 1 was substantially different than all following formats, lacking a top-level services key. Its usage is historical and files written in this format don't run with Compose V2.\n\nCompose file format 2.x and 3.x were very similar to each other, but the latter introduced many new options targeted at Swarm deployments.\n\nTo address confusion around Compose CLI versioning, Compose file format versioning, and feature parity depending on whether Swarm mode was in use, file format 2.x and 3.x were merged into the Compose Specificationopen_in_new. Unlike the prior file formats, the Compose Specification is rolling and eliminates the version field in YAML.\n\nCompose V2 uses the Compose Specification for project definition. The version field should be omitted and is ignored if present.\n\nTo make migration easier, Compose V2 has backwards compatibility for certain elements that have been deprecated or changed between Compose file format 2.x/3.x and the Compose Specification. In these cases, a warning is logged when running Compose V2 commands, and you should update your YAML accordingly. Future versions of Compose may return an error in these cases.",
+        "author": "",
+        "id": 13
+      },
+      {
+        "title": "DOCKER ",
+        "body": "import { useState } from \"react\";\nimport { useHistory } from \"react-router-dom\";\n\nconst Create = () => {\n    const [title, setTitle] = useState('');\n    const [body, setBody] = useState('');\n    const [author, setAuthor] = useState('');\n    const [isPending, setIsPending] = useState(false);\n    const history = useHistory();\n\n    const handleSubmit = (e) => {\n        e.preventDefault();\n        const blog = { title, body, author };\n        setIsPending(true);\n\n        // Simulate a delay of 500 milliseconds before sending the request\n        setTimeout(() => {\n            fetch ('http://localhost:8000/blogs', {\n                method: 'POST',\n                headers: { \"Content-Type\": \"application/json\" },\n                body: JSON.stringify(blog)\n            }).then(() => {\n                console.log('new blog added');\n                setIsPending(false);\n                history.push('/');\n            });\n        }, 500); // 500 milliseconds timeout\n    \n    }\n    \n    return (\n        <div className=\"create\">\n            <h2>Add a New Blog</h2>\n            <form onSubmit={handleSubmit}>\n                <label>Blog Title:</label>\n                <input type=\"text\" required value={title} onChange={(e) => setTitle(e.target.value)}/>\n                <label>Blog Body:</label>\n                <textarea required value={body} onChange={(e) => setBody(e.target.value)}></textarea>\n                <label>Blog Author:</label>\n                <select value={author} onChange={(e) => setAuthor(e.target.value)}>\n                    <option   value=\"mario\">Mario</option>\n                    <option value=\"sandra\">Sandra</option>                    \n                </select>\n                {  !isPending && <button>Add Blog</button>}\n                { isPending && <button disabled>Adding Blog...</button>}\n            </form>\n        </div>\n      );\n}\n \nexport default Create;",
+        "author": "mario",
+        "id": 14
+      },
+      {
+        "title": "CENTOS 10",
+        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
+        "author": "mario",
+        "id": 15
+      },
+      {
+        "title": "redhat",
+        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
+        "author": "sandra",
+        "id": 16
+      }
+    ]
+  }
