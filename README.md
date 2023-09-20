@@ -89,7 +89,7 @@ Example db.json structure:
 }
 ```
 ## Contributing
-If you would like to contribute to this project, please follow the guidelines outlined in the [Contributing]CONTRIBUTING.md file.
+If you would like to contribute to this project, please follow the guidelines outlined in the [Contributing](CONTRIBUTING.md) file.
 
 ## 📝 License <a name="license"></a>
 
