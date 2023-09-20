@@ -30,12 +30,12 @@ Before you can use this JSON Server API, ensure that you have the following prer
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/react-blog-api.git
+   git clone https://github.com/alyconr/jsonServer-Api-Blog.git
 
 2. Navigate to the cloned directory:
 
     ```bash
-    cd react-blog-api
+    cd jsonServer-Api-Blog.git
 
 3. Install dependencies:
 
