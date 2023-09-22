@@ -1,62 +1,62 @@
 {
     "blogs": [
       {
-        "title": "DOCKER COMPOSE 4",
-        "body": " cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles. DFDEWQWEWE",
-        "author": "sandra",
+        "title": "KUBERNETES",
+        "body": " Kubernetes is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available. \n \n The name Kubernetes originates from Greek, meaning helmsman or pilot. K8s as an abbreviation results from counting the eight letters between the  K and the s. Google open-sourced the Kubernetes project in 2014. \n \n Kubernetes combines over 15 years of Google's experience running production workloads at scale with best-of-breed ideas and practices from the community. ",
+        "author": "Mario",
+        "id": 1
+      },
+      {
+        "title": "KUBERNETES COMPONENTS",
+        "body": "A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node. The worker node(s) host the Pods that are the components of the application workload. \n \n The control plane manages the worker nodes and the Pods in the cluster. In production environments, the control plane usually runs across multiple computers and a cluster usually runs multiple nodes, providing fault-tolerance and high availability.",
+        "author": "Aly",
+        "id": 2
+      },
+      {
+        "title": "The Kubernetes API",
+        "body": "The core of Kubernetes control plane is the API server. The API server exposes an HTTP API that lets end users, different parts of your cluster, and external components communicate with one another. The Kubernetes API lets you query and manipulate the state of API objects in Kubernetes (for example: Pods, Namespaces, ConfigMaps, and Events). \n \n Most operations can be performed through the kubectl command-line interface or other command-line tools, such as kubeadm, which in turn use the API. However, you can also access the API directly using REST calls. Consider using one of the client libraries if you are writing an application using the Kubernetes API.",
+        "author": "Samantha",
+        "id": 3
+      },
+      {
+        "title": "UBUNTU",
+        "body": "Ubuntu comes with everything you need to run your organisation, school, home or enterprise. All the essential applications, like an office suite, browsers, email and media apps come pre-installed and thousands more games and applications are available in the Ubuntu Software Centre.",
+        "author": "Sara",
+        "id": 4
+      },
+      {
+        "title": "DOCKER",
+        "body": "Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. \n \n With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.",
+        "author": "Aly",
+        "id": 5
+      },
+      {
+        "title": "DOCKER COMPOSE",
+        "body": "Docker Compose is a tool that helps you define and share multi-container applications.With Compose, you can create a YAML file to define the services and with a single command, you can spin everything up or tear it all down. \n \n The big advantage of using Compose is you can define your application stack in a file, keep it at the root of your project repository (it's now version controlled),  and easily enable someone else to contribute to your project. Someone would only need to clone your repository and start the app using Compose. In fact, you might see quite a few projects on GitHub/GitLab doing exactly this now.",
+        "author": "Samantha",
         "id": 6
       },
       {
-        "title": "LINUXERS",
-        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
-        "author": "",
+        "title": "JAVASCRIPT",
+        "body": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.",
+        "author": "Sara",
+        "id": 7
+      },
+      {
+        "title": "EXPRESS.JS ",
+        "body": "Express.js is the most popular web framework for Node.js. It is designed for building web applications and APIs and has been called the de facto standard server framework for Node.js. \n \n \n  Building a backend from-scratch for an application in Node.js can be tedious and time consuming. From setting up ports to route handlers, writing all of the boilerplate code takes away from what really matters, which is writing the business logic for an application. By using web frameworks like Express.js, developers can save time and focus on other important tasks. To learn more about Express and what it can do, visit the official website.",
+        "author": "mario",
         "id": 8
       },
       {
-        "title": "pepe",
-        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
+        "title": "NODE.JS",
+        "body": "Node.js is similar in design to, and influenced by, systems like Ruby's Event Machine and Python's Twisted. Node.js takes the event model a bit further. It presents an event loop as a runtime construct instead of as a library. In other systems, there is always a blocking call to start the event-loop. Typically, behavior is defined through callbacks at the beginning of a script, and at the end a server is started through a blocking call like EventMachine::run(). In Node.js, there is no such start-the-event-loop call. Node.js simply enters the event loop after executing the input script. Node.js exits the event loop when there are no more callbacks to perform. This behavior is like browser JavaScript — the event loop is hidden from the user.",
         "author": "mario",
         "id": 9
       },
       {
-        "title": "UBUNTU",
-        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
-        "author": "",
-        "id": 10
-      },
-      {
-        "title": "DOCKER",
-        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
-        "author": "",
-        "id": 11
-      },
-      {
-        "title": "docker",
-        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
-        "author": "",
-        "id": 12
-      },
-      {
-        "title": "JAVASCRIPT",
-        "body": "Compose file format 1 was substantially different than all following formats, lacking a top-level services key. Its usage is historical and files written in this format don't run with Compose V2.\n\nCompose file format 2.x and 3.x were very similar to each other, but the latter introduced many new options targeted at Swarm deployments.\n\nTo address confusion around Compose CLI versioning, Compose file format versioning, and feature parity depending on whether Swarm mode was in use, file format 2.x and 3.x were merged into the Compose Specificationopen_in_new. Unlike the prior file formats, the Compose Specification is rolling and eliminates the version field in YAML.\n\nCompose V2 uses the Compose Specification for project definition. The version field should be omitted and is ignored if present.\n\nTo make migration easier, Compose V2 has backwards compatibility for certain elements that have been deprecated or changed between Compose file format 2.x/3.x and the Compose Specification. In these cases, a warning is logged when running Compose V2 commands, and you should update your YAML accordingly. Future versions of Compose may return an error in these cases.",
-        "author": "",
-        "id": 13
-      },
-      {
-        "title": "DOCKER ",
-        "body": "import { useState } from \"react\";\nimport { useHistory } from \"react-router-dom\";\n\nconst Create = () => {\n    const [title, setTitle] = useState('');\n    const [body, setBody] = useState('');\n    const [author, setAuthor] = useState('');\n    const [isPending, setIsPending] = useState(false);\n    const history = useHistory();\n\n    const handleSubmit = (e) => {\n        e.preventDefault();\n        const blog = { title, body, author };\n        setIsPending(true);\n\n        // Simulate a delay of 500 milliseconds before sending the request\n        setTimeout(() => {\n            fetch ('http://localhost:8000/blogs', {\n                method: 'POST',\n                headers: { \"Content-Type\": \"application/json\" },\n                body: JSON.stringify(blog)\n            }).then(() => {\n                console.log('new blog added');\n                setIsPending(false);\n                history.push('/');\n            });\n        }, 500); // 500 milliseconds timeout\n    \n    }\n    \n    return (\n        <div className=\"create\">\n            <h2>Add a New Blog</h2>\n            <form onSubmit={handleSubmit}>\n                <label>Blog Title:</label>\n                <input type=\"text\" required value={title} onChange={(e) => setTitle(e.target.value)}/>\n                <label>Blog Body:</label>\n                <textarea required value={body} onChange={(e) => setBody(e.target.value)}></textarea>\n                <label>Blog Author:</label>\n                <select value={author} onChange={(e) => setAuthor(e.target.value)}>\n                    <option   value=\"mario\">Mario</option>\n                    <option value=\"sandra\">Sandra</option>                    \n                </select>\n                {  !isPending && <button>Add Blog</button>}\n                { isPending && <button disabled>Adding Blog...</button>}\n            </form>\n        </div>\n      );\n}\n \nexport default Create;",
-        "author": "mario",
-        "id": 14
-      },
-      {
-        "title": "CENTOS 10",
-        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
-        "author": "mario",
-        "id": 15
-      },
-      {
-        "title": "redhat",
-        "body": "Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.",
+        "title": "ANSIBLE",
+        "body": "Ansible is a software tool that provides simple but powerful automation for cross-platform computer support. It is primarily intended for IT professionals, who use it for application deployment, updates on workstations and servers, cloud provisioning, configuration management, intra-service orchestration, and nearly anything a systems administrator does on a weekly or daily basis. Ansible doesn't depend on agent software and has no additional security infrastructure, so it's easy to deploy.",
         "author": "sandra",
         "id": 16
       }
